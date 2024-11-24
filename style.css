@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    font-family: "Outfit", sans-serif;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #2BCCF8, #1477BF);
+}
+.txt{
+    padding: 0.5rem 0rem;
+    line-height: 2em;
+}
+/*======================================================================================*/
+.cabecalho{
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.cabecalho > .logo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cabecalho > .logo > img{
+    width: 20%;
+}
+.cabecalho > .logo > p {
+    padding: 0rem 0rem 0rem 1rem;
+    font-weight: 500;
+}
+
+.cabecalho > .menu{
+    width: 50%;
+    text-align: center;
+}
+.cabecalho > .menu > img{
+    width: 28px;
+}
+
+.destaque1{
+    color: blue;
+}
+.destaque2{
+    color: red;
+}
+/*======================================================================================*/
+.btns{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btns > .btn{
+    width: 20%;
+    padding: 1.5rem 0.5rem;
+    margin: 0rem 1rem;
+    text-align: center;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.267);
+}
+.btns > .btn > img{
+    width: 40px;
+}
+
+#exercicos{
+    background-color: #0ED7FF;
+}
+#videos{
+    background-color: #6B00FF;
+}
+#alimentacao{
+    background-color: #FF0303;
+}
+/*======================================================================================*/
+.card{
+    margin: 2rem 0rem 0rem 0rem;
+    padding: 1rem 0rem 0rem 0rem;
+    border-radius: 30px 30px 0px 0px;
+    background-color: white;
+}
+
+.card > h1{
+    text-align: center;
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+.card > .box{
+    height: 50vh;
+    overflow: auto;
+    padding: 0rem 0.5rem;
+}
+.card > .box > img{
+    display: block;
+    margin: auto;
+    padding: 0rem 0rem 1rem 0rem;
+    width: 360px;
+}
