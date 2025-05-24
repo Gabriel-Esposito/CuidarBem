@@ -5,7 +5,10 @@
 }
 
 body{
-    background-image: linear-gradient(to bottom, #2BCCF8, #1477BF);
+    background-image: linear-gradient(to bottom, #73c088, #ABE0B7);
+}
+main{
+    background-image: url(fundo_folhas.png);
 }
 .txt{
     padding: 0.5rem 0rem;
@@ -92,9 +95,13 @@ body{
     overflow: auto;
     padding: 0rem 0.5rem;
 }
-.card > .box > img{
+.card > .box > img, .box > section > img{
     display: block;
     margin: auto;
     padding: 0rem 0rem 1rem 0rem;
     width: 360px;
+}
+/*======================================================================================*/
+.box > section > h3{
+    margin: 0.5rem 0rem;
 }
